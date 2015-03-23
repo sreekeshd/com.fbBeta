@@ -1,0 +1,58 @@
+.span1{
+	width:12%;
+}
+.span5{
+	width:60%;
+}
+.myMenu{
+	align:left;
+}
+ul.dropdown-menu{
+	width:30%;
+}
+.myHeader {
+	background-color: #3b5998;
+	height:42px;
+}
+span.myBrand{
+	width:50px;
+	height:50px;
+	align:right;
+}
+.NamedLinks{
+	color:#FFFFFF
+}
+ .input-mysize{
+	width:30%;
+	
+}
+.mysize
+{
+		width:100%;	
+}
+.reducedSize{
+	font-size: smaller;
+
+}
+.rightAlign{
+	text-align:right;
+}
+.leftAlign{
+	text-align:left;
+}
+.myDimensions {
+	height: 43px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	border-bottom: 1px;
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
