@@ -20,9 +20,11 @@ a{
 .nav > li > a:focus{
     text-decoration: none;
 	background-color: #3b5998;
+	 	color: #FFF;
 }
  .nav > li > a:hover {
  	background-color: #3b5998;
+ 	color: #FFF;
  }
 
 .fb-button{
