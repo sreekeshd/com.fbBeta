@@ -95,11 +95,14 @@ span.myBrand{
 	color:gray;
 	font-weight:bold;
 }
-#editLinkStyle:active,#editLinkStyle:FOCUS,#editLinkStyle:hover{
+#editLinkStyle:active{
 	text-decoration:none;
 	color:gray;
 	font-weight:bold;
 }
+#editLinkStyle:hover,#editLinkStyle:FOCUS{
+	text-decoration:underline;
+	}
 .clearFloat{
 	clear: both;
 }
