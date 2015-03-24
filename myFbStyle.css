@@ -106,3 +106,8 @@ span.myBrand{
 .clearFloat{
 	clear: both;
 }
+.navLinkPane{
+	left:auto;
+	right:0px;
+	min-width:330px;
+}
