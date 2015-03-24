@@ -77,3 +77,29 @@ span.myBrand{
     box-shadow: none;
     width: 100%;
 }
+.searchWidth{
+	min-width:490px;
+}
+.alignRight{
+	float:right;
+}
+.alignLeft{
+	float:left;
+}
+.searchStyle{
+	color:gray;
+	font-weight:bold;
+}
+#editLinkStyle{
+	text-decoration:none;
+	color:gray;
+	font-weight:bold;
+}
+#editLinkStyle:active,#editLinkStyle:FOCUS,#editLinkStyle:hover{
+	text-decoration:none;
+	color:gray;
+	font-weight:bold;
+}
+.clearFloat{
+	clear: both;
+}
