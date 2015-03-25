@@ -1,6 +1,9 @@
 .fix{
 	position:fixed;
 }
+.containerColor{
+ 	background-color: #dfe3ee;
+ 	}
 a{
     cursor: pointer;
 }
@@ -89,11 +92,13 @@ span.myBrand{
 .searchStyle{
 	color:gray;
 	font-weight:bold;
+	margin-left: 10px;	
 }
 #editLinkStyle{
 	text-decoration:none;
 	color:gray;
 	font-weight:bold;
+	margin-right: 10px;
 }
 #editLinkStyle:active{
 	text-decoration:none;
@@ -115,4 +120,21 @@ span.myBrand{
     left:auto;
     right:0px;
     min-width: 160px;
-  }
+}
+
+.list-group-item{
+	border:none;
+	padding:5px 10px;
+	background-color: #dfe3ee;
+}
+.leftCol{
+	margin-left: 50px;
+	width: 175px;
+}
+.list-group{
+border:none;
+box-shadow: none;
+}
+.displayBlock{
+	display:inline-block;
+}
