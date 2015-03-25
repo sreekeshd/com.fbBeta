@@ -111,3 +111,8 @@ span.myBrand{
 	right:0px;
 	min-width:330px;
 }
+.menuLeft {
+    left:auto;
+    right:0px;
+    min-width: 160px;
+  }

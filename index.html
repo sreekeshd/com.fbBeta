@@ -64,6 +64,7 @@
 								<li><a href="#">Search Item 2</a></li>
 								<li><a href="#"> Write JavaScript</a></li>
 							</ul>
+
 						</div>
 					</div>
 				</form>
@@ -77,7 +78,7 @@
 						href="#https://www.facebook.com/sreekeshd"><span
 							class="fbColor fbLinkStyle"><img src="sreekeshd.jpg"
 								style="height: 22px; width: 22px;"> Sreekesh</span></a></li>
-					<li><img src="divider.png"
+					<li class="navbar-btn"><img src="divider.png"
 						style="vertical-align: middle; height: 32px; width: 1px;"></li>
 				</ul>
 			</div>
@@ -95,83 +96,138 @@
 
 
 			<div class=" nav col-md-2 fbColor">
-						<ul class="nav  navbar-nav btn-group fbColor">
-						<li class="dropdown">
-							<button type="button" class="btn navbar-btn  btn-group dropdown-toggle fbColor"
-								data-toggle="dropdown" role="button" aria-expanded="false"
-								aria-label="Left Align">
-								<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-							</button>
-							<ul class="dropdown-menu  navLinkPane" role="menu">
-								<li><a href="#">Action</a></li>
-								<li><a href="#">Another action</a></li>
-								<li><a href="#">Something else here</a></li>
-								<li class="divider"></li>
-								<li><a href="#"> friend req + chat messages +
-										notifications + divider --- account settings + dropdown</a></li>
-							</ul>
-						</li>
-						<li class="dropdown">
-							<button type="button" class="btn navbar-btn btn-group dropdown-toggle fbColor"
-								data-toggle="dropdown" role="button" aria-expanded="false"
-								aria-label="Left Align">
-								<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-							</button>
-							<ul class="dropdown-menu navLinkPane" role="menu">
-								<li><span class="reducedSize notificationStyle alignLeft"><a  href="#FriendsMessage">
-								Inbox</a>
-								<a href="#OtherMessages">Other</a></span>
-								
-								<span class="reducedSize alignRight"><a 
-										id="navBarLinkStyle" href="#MarkAllRead">Mark All as Read</a>&thinsp;&middot;&thinsp;
-									<a id="navBarLinkStyle" href="#NewMessage">
-										Send a	New Message	</a></span>
-									</li>
-								<li class="clearFloat"></li>
-								<li class="divider"></li>
-								<li><a href="#">Message 1</a></li>
-								<li><a href="#">Message 2</a></li>
-								<li><a href="#">Write JavaScript</a></li>
-							</ul>
-						</li>
-						<li class="dropdown ">
-							<button type="button" class="btn navbar-btn btn-group dropdown-toggle  fbColor"
-								data-toggle="dropdown" role="button" aria-expanded="false"
-								aria-label="Left Align">
-								<span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
-							</button>
-						
-							<ul class="dropdown-menu  navLinkPane" role="menu">
-								<li><span class="reducedSize notificationStyle alignLeft">Notifications</span>
-									<span  class="reducedSize notificationStyle alignRight"><a
-										id="navBarLinkStyle" href="#MarkasRead">Mark as Read</a>&thinsp;&middot;&thinsp;
-										<a href="#Settings">Settings</a></span>
-								</li>
-								<li class="clearFloat"></li>
-								<li class="divider"></li>
-								<li><a href="#">Notification 1</a></li>
-								<li><a href="#">Notification 2</a></li>
-								<li><a href="#"> Write JavaScript</a></li>
-					
-							</ul>
-						</li>
-					</ul>
-	
+				<ul class="nav  navbar-nav btn-group fbColor">
+					<li class="dropdown">
+						<button type="button"
+							class="btn navbar-btn  btn-group dropdown-toggle fbColor"
+							data-toggle="dropdown" role="button" aria-expanded="false"
+							aria-label="Left Align">
+							<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+						</button>
+						<ul class="dropdown-menu navLinkPane" role="menu">
+							<li><span class="reducedSize notificationStyle alignLeft">
+									Friend Requests </span> <span class="reducedSize alignRight"><a
+									id="navBarLinkStyle" href="#FindFriends">Find Friends</a>&thinsp;&middot;&thinsp;
+									<a id="navBarLinkStyle" href="#Settings"> Settings </a></span></li>
+							<li class="clearFloat"></li>
+							<li class="divider"></li>
+							<li><a href="#">Request 1</a></li>
+							<li><a href="#">Request 2</a></li>
+							<li><a href="#">Write JavaScript</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<button type="button"
+							class="btn navbar-btn btn-group dropdown-toggle fbColor"
+							data-toggle="dropdown" role="button" aria-expanded="false"
+							aria-label="Left Align">
+							<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+						</button>
+						<ul class="dropdown-menu navLinkPane" role="menu">
+							<li><span class="reducedSize notificationStyle alignLeft"><a
+									href="#FriendsMessage"> Inbox</a> <a href="#OtherMessages">Other</a></span>
+
+								<span class="reducedSize alignRight"><a
+									id="navBarLinkStyle" href="#MarkAllRead">Mark All as Read</a>&thinsp;&middot;&thinsp;
+									<a id="navBarLinkStyle" href="#NewMessage"> Send a New
+										Message </a></span></li>
+							<li class="clearFloat"></li>
+							<li class="divider"></li>
+							<li><a href="#">Message 1</a></li>
+							<li><a href="#">Message 2</a></li>
+							<li><a href="#">Write JavaScript</a></li>
+						</ul>
+					</li>
+					<li class="dropdown ">
+						<button type="button"
+							class="btn navbar-btn btn-group dropdown-toggle  fbColor"
+							data-toggle="dropdown" role="button" aria-expanded="false"
+							aria-label="Left Align">
+							<span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+						</button>
+
+						<ul class="dropdown-menu  navLinkPane" role="menu">
+							<li><span class="reducedSize notificationStyle alignLeft">Notifications</span>
+								<span class="reducedSize notificationStyle alignRight"><a
+									id="navBarLinkStyle" href="#MarkasRead">Mark as Read</a>&thinsp;&middot;&thinsp;
+									<a href="#Settings">Settings</a></span></li>
+							<li class="clearFloat"></li>
+							<li class="divider"></li>
+							<li><a href="#">Notification 1</a></li>
+							<li><a href="#">Notification 2</a></li>
+							<li><a href="#"> Write JavaScript</a></li>
+
+						</ul>
+					</li>
+					<li class="navbar-btn"><img src="divider.png"
+						style="vertical-align: middle; height: 32px; width: 1px;"></li>
+					<li class="dropdown">
+						<button type="button"
+							class="btn navbar-btn  btn-group dropdown-toggle fbColor"
+							data-toggle="dropdown" role="button" aria-expanded="false"
+							aria-label="Left Align">
+							<span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
+						</button>
+						<ul class="dropdown-menu navLinkPane" role="menu">
+							<li><span class="reducedSize notificationStyle alignLeft">Privacy
+									Shortcuts</span> <span
+								class="reducedSize notificationStyle alignRight"><a
+									id="navBarLinkStyle" href="#SearchPrivacy"> <span
+										class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+							</span></li>
+							<li class="clearFloat"></li>
+							<li class="divider"></li>
+
+							<li><a href="#">Privacy Checkup</a></li>
+							<li class="clearFloat"></li>
+							<li class="divider"></li>
+
+							<li><span class="glyphicon glyphicon-globe"
+								aria-hidden="true"> </span> Who can see my stuff? <span
+								class="glyphicon glyphicon-menu-down alignRight"
+								id="navBarLinkStyle" aria-hidden="true"> </span></li>
+							<li class="clearFloat"></li>
+							<li class="divider"></li>
+							<li class="clearFloat"></li>
+							<li class="divider"></li>
+							<li><a href="#"> Write JavaScript</a></li>
+
+						</ul>
+					<li class="dropdown ">
+						<button type="button"
+							class="btn navbar-btn  btn-group dropdown-toggle fbColor"
+							data-toggle="dropdown" role="button" aria-expanded="false"
+							aria-label="Left Align">
+							<span class="glyphicon glyphicon-triangle-bottom"
+								aria-hidden="true"></span>
+						</button>
+						<ul class="dropdown-menu menuLeft reducedSize " role="menu">
+
+							<li><a href="#">Create Page</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Create Ads</a></li>
+							<li><a href="#">Advertising on Facebook</a></li>
+							<li class="divider"></li>
+
+							<li><a href="#">Activity Log</a></li>
+							<li><a href="#">News Feed Preferences</a></li>
+
+							<li><a href="#">Log Out</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Help</a></li>
+							<li><a href="#">Report a Problem</a></li>
+						</ul>
+					</li>
+				</ul>
 
 			</div>
 			<!-- friend req + chat messages + notifications + divider --- account settings + dropdown -->
-
 
 		</div>
 		<!-- row -->
 
 	</div>
 	<!-- container fluid-->
-
-
-
-
-
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script
