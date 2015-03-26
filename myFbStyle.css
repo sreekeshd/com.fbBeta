@@ -132,11 +132,13 @@ span.myBrand{
 	width: 175px;
 	box-shadow:none;
 }
-.list-group.contentPane{
+.contentPane>.list-group-item{
 	padding-right:0px;
-	box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.48);
 	margin-bottom: 10px;
 	margin-top: 10px;
+	border-style: solid;
+    border-width: 1px;
+    border-color: gray;
 }
 .list-group-item.contentPane::FIRST-CHILD{
 	margin-top: 5px;
@@ -156,8 +158,19 @@ span.myBrand{
 }
 .feeds>.list-group-item{
 	background-color: white;
+	box-shadow:none;
+	
 }
-.breakList{
+.list-group-item>.breakList{
 	height:20px;
 	background-color: #dfe3ee;
+}
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover{
+	background-color:#3B5998;
+}
+.feeds{
+	box-shadow:none;
+}
+#statusUpdate{
+	
 }
